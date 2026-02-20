@@ -99,6 +99,12 @@ body.dark-mode .main-sidebar .nav-link:hover {
         <p>User Accounts</p>
       </a>
     </li>
+    </li>
+    <li class="nav-item">
+      <a href="<?= base_url('student') ?>" class="nav-link <?= is_active(1, 'student') ?>">
+        <i class="nav-icon fas fa-users"></i>
+        <p>Student</p>
+      </a>
   </ul>
 </nav>
 </div>
