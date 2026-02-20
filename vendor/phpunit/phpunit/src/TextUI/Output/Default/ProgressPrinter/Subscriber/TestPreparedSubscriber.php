@@ -1,26 +1,1 @@
-<?php declare(strict_types=1);
-/*
- * This file is part of PHPUnit.
- *
- * (c) Sebastian Bergmann <sebastian@phpunit.de>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-namespace PHPUnit\TextUI\Output\Default\ProgressPrinter;
-
-use PHPUnit\Event\Test\Prepared;
-use PHPUnit\Event\Test\PreparedSubscriber;
-
-/**
- * @no-named-arguments Parameter names are not covered by the backward compatibility promise for PHPUnit
- *
- * @internal This class is not covered by the backward compatibility promise for PHPUnit
- */
-final class TestPreparedSubscriber extends Subscriber implements PreparedSubscriber
-{
-    public function notify(Prepared $event): void
-    {
-        $this->printer()->testPrepared();
-    }
-}
+� ذلك، حاول أن تطلب مني الكتابة عن شيء ما.",FreUpdatedHeader:"نقدم لكم Copilot",FreUpdatedSubtext:"استخدم قوة الذكاء الاصطناعي لمساعدتك على البدء من الصفر أو من ملفات موجودة لتحسين النص والمزيد.\n\nقد تقترف خاصية Copilot أخطاءً لذلك لا تنس التأكد من صحة المعلومات ومشاركة ملاحظاتك.",ChatPlaceHolderUpdatedMessage:"اطرح سؤالا أو أخبرني بما تريد القيام به. للحصول على أفكار حول كيف يمكنني المساعدة، حدد دليل المطالبة أدناه.",ChatPlaceholderMessageInputV2NoGrounding:"اطرح أسئلة واستخدم هذا المستند",ChatPlaceholderMessage

@@ -1,26 +1,1 @@
-<?php declare(strict_types=1);
-/*
- * This file is part of PHPUnit.
- *
- * (c) Sebastian Bergmann <sebastian@phpunit.de>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-namespace PHPUnit\TextUI\Output\Default\ProgressPrinter;
-
-use PHPUnit\Event\TestRunner\ExecutionStarted;
-use PHPUnit\Event\TestRunner\ExecutionStartedSubscriber;
-
-/**
- * @no-named-arguments Parameter names are not covered by the backward compatibility promise for PHPUnit
- *
- * @internal This class is not covered by the backward compatibility promise for PHPUnit
- */
-final class TestRunnerExecutionStartedSubscriber extends Subscriber implements ExecutionStartedSubscriber
-{
-    public function notify(ExecutionStarted $event): void
-    {
-        $this->printer()->testRunnerExecutionStarted($event);
-    }
-}
+مانع في تبسيط طلبك إلى شيء واحد تريد مني القيام به؟",AskAQuestionOnClickDisplayString:"السؤال:",InsertResponseMessage:"بالتأكيد! تم إدراج المحتوى في المستند.",MakeTableText:"إنشاء جدول...",InternetNotAvailableErrorMessage:"يبدو أنك غير متصل بالإنترنت. لمتابعة الدردشة مع Copilot، تحقق من اتصالك وحاول مرة أخرى.",ZQMPromptItemAsk:"طرح سؤال",ZQMPromptItemSummarize:"تلخيص",AskAQuestionPlaceholder:"طرح سؤال",ThrottlingErrorMessage:"لقد وصلت إلى الحد الأقصى لعدد الطلبات في الساعة. أعد المحاولة بعد قليل.",CitationTitle:"هذا المستند",SessionExpired:"عذرا، انتهت صلاحية جلسة العمل الخاصة بك. لمتابعة العمل، ا�
